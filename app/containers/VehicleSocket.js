@@ -8,7 +8,7 @@ if (window.navigator && Object.keys(window.navigator).length == 0 && !window.doc
   window = Object.assign(window, { navigator: { userAgent: 'ReactNative' }});
 }
 
-var io = require("socket.io-client/socket.io");
+var io = require("socket.io-client/dist/socket.io");
 
 
 class VehicleSocket extends Component {
